@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    display: grid;
+    max-width: 900px;
+    grid-template-columns: 543px 270px;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* ========================ocupando espaços================================= */
+.tela-do-video{
+
+     max-width: 543px;
+     height: 217px;
+     grid-area: 1 / 1 / 4 / 2;
+     
+}
+
+.videodescricao{
+    grid-area: 4 / 1 / 5 / 2;
+    max-width: 543px;
+    
+}
+.propaganda{
+    max-width: 270px;
+    height: 56px;
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: center;
+}
+.videolateral-1{
+    display: flex;
+    max-width: 270px;
+    height: 72px;
+    grid-area: 2 / 2 / 3 / 3;
+
+}
+.videolateral-2{
+    display: flex;
+    max-width: 270px;
+    height: 72px;
+    grid-area: 3 / 2 / 4 / 3;
+
+}
+.videolateral-3{
+    display: flex;
+    max-width: 270px;
+    height: 72px;
+    grid-area: 4 / 2 / 5 / 3;
+
+}
+
+
+.imagemlateral{
+    max-width: 101px;
+    height: 72px;
+}
+
+.propaganda img{
+    width: 100%;
+    height: 56px;
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: left;
+
+}
+p{
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 12.89px;
+    text-align: left;
+
+}
+.lorem{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 18.75px;
+text-align: left;
+margin-top: 10px;
+
+}
+.visualizacao{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+line-height: 16.41px;
+text-align: left;
+margin-top: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =================================cores========================================
+ */
+
+ .tela-do-video{
+    background-color: rgb(250, 16, 16);
+ }
+ .propaganda{
+   background-color:  #C4C4C4;
+   
+    
+ }
+ /* .videodescricao{
+    background-color: blueviolet;
+ } */
+ /* .videolateral-1{
+    background-color: brown;
+ } */
+ /* .videolateral-2{
+    background-color: chartreuse;
+ } */
+ /* .videolateral-3{
+    background-color: orange ;
+ } */
